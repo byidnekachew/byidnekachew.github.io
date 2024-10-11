@@ -47,3 +47,32 @@ I also participate in many student societites and organizations at my school, in
     * The Recipie Critic is my favorite recipie review websitie. It allows me to find reputable recipies that actually work. I use recipies from this website very frequently and enjoy their reviews.
 * [Amazon](amazon.com)
     * Amazon is an online shopping platform that allows you to buy products from large stores and retailers as well as individual sellers. I find this website to be incredibly interesting due to the fact that it allows for quick delivery of various everyday goods.
+
+# Mermaid Charts
+
+## NTHS Leadership Org Chart
+``` mermaid
+flowchart TD;
+    A(President)-->B(Vice President);
+    B-->Secretary;
+    B-->Treasurer;
+    A-->C(IT Dept Chair)
+    A-->D(Biotech Dept Chair)
+    C-->H(Senior IT Rep)
+    C-->I(Junior IT Rep)
+    C-->J(Sophomore IT Rep)
+    D-->K(Senior Biotech Rep)
+    D-->L(Junior Biotech Rep)
+    D-->M(Sophomore Biotech Rep)
+```
+
+## Eye Color Punnet Square
+``` mermaid
+quadrantChart
+    x-axis Blue Eyes -b- --> Brown Eyes -B-
+    y-axis Blue Eyes -b- --> Blue Eyes -b-
+    quadrant-1 Bb
+    quadrant-2 bb
+    quadrant-3 bb
+    quadrant-4 Bb
+```
