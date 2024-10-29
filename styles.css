@@ -7,15 +7,16 @@ Dark Shades: #2A1766;
 */
 
 .name{
-    color:red;
+    color:slategray;
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
 }
 
 img{
     display: inline-block;
-    border-radius: 5%;
-    width: 200px;
+    border-radius:10%;
 }
 
 .navbar{
@@ -24,3 +25,6 @@ img{
     padding:0;
 }
 
+.navitem{
+    display: inline;
+}
