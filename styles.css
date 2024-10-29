@@ -1,0 +1,26 @@
+/* Color Palette:
+Light Shades: #F8F7F7;
+Light Accent: #8D3FD0;
+Main Brand Color: #e96663;
+Dark Accent: #928CD8;
+Dark Shades: #2A1766;
+*/
+
+.class{
+    color:slategray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+img{
+    display: inline-block;
+    border-radius: 5%;
+    width: 200px;
+}
+
+.navbar{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
