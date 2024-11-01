@@ -1,30 +1,76 @@
 /* Color Palette:
-Light Shades: #F8F7F7;
-Light Accent: #8D3FD0;
-Main Brand Color: #e96663;
-Dark Accent: #928CD8;
-Dark Shades: #2A1766;
+Light Shades: #F5F0CC;
+Light Accent: #EDB65F;
+Main Brand Color: #847EB9;
+Dark Accent: #646CAD;
+Dark Shades: #26567F;
 */
 
+.color-tester{
+    background-color: #F5F0CC;
+    background-color: #EDB65F;
+    background-color: #847EB9;
+    background-color: #646CAD;
+    background-color: #26567F;
+}
+
+body{
+    background-color: #26567F;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #F5F0CC;
+}
+
 .name{
-    color:slategray;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
+    color:#EDB65F ;
+    font-size: 70px;
     display: flex;
     align-items: center;
 }
-
 img{
     display: inline-block;
     border-radius:10%;
 }
 
-.navbar{
-    list-style-type:none;
-    margin:0;
-    padding:0;
+h2{
+    color: #EDB65F;
+}
+.subpage{
+    color: #EDB65F;
 }
 
-.navitem{
+.column {
+    float: left;
+    width: 32%;
+    background-color: #646CAD;
+    margin: .33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav{
+    top: 0;
+    width: 100%;
+    top: 0;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:0;
+    overflow: hidden;
+    height: auto;
+}
+.navbar li{
     display: inline;
+    float: left;
+}
+.navbar a{
+    display: block;
+    padding: 12px 80px;
+    background-color: #646CAD;
+    color: #EDB65F;
+    text-decoration: none;
 }
