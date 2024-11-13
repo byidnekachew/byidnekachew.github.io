@@ -38,7 +38,7 @@ h2{
     color: #EDB65F;
 }
 
-.column {
+/* .column {
     float: left;
     width: 32%;
     background-color: #646CAD;
@@ -48,6 +48,20 @@ h2{
     content: "";
     display: table;
     clear: both;
+} */
+.container{
+    background-color: #26567F;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+.box{
+    background-color: #646CAD;
+    padding: 3px;
+    color: #F5F0CC;
+    margin: 3px;
 }
 
 nav{
