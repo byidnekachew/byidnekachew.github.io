@@ -95,3 +95,7 @@ nav{
     color: #EDB65F;
     text-decoration: none;
 }
+
+.navbar li a:hover{
+    background-color: #847EB9;
+}
